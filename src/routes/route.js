@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
+
 const { registerUser, getUser, updateUsers, login } = require('../controller/userController');
 const { createProduct, getProducts, fetchProductsById, deleteProductById, updateProducts } = require("../controller/productController");
 const { createCart, updatecart, getCartDetails, deleteCart } = require("../controller/cartController");
